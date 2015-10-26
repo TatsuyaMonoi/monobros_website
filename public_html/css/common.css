@@ -36,8 +36,9 @@ and open the template in the editor.
 .font22{font-size:22px !important;}
 .font23{font-size:23px !important;}
 .font24{font-size:24px !important;}
+.font48{font-size:48px !important;}
 
-p { font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;}
+p { font-family: "Hiragino Maru Gothic ProN", Meiryo, fantasy;}
  
 /* ----------------------------------------------------
  
@@ -63,14 +64,14 @@ p { font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;}
  
 * html .clearfix {
   height: 1px;
-  /*Â¥*//*/
+  /*Ã‚Â¥*//*/
   height: auto;
   overflow: hidden;
   /**/
 }
  
 /* ----------------------------------------------------
-    clearfix ã®ä»£ç”¨
+    clearfix Ã£ÂÂ®Ã¤Â»Â£Ã§â€Â¨
     &#60;div class="hr"&#62;&#60;hr /&#62;&#60;/div&#62;
 ---------------------------------------------------- */
  
@@ -92,7 +93,10 @@ div.hr hr { display:none; }
 .mt30 { margin-top: 30px !important; }
 .mt35 { margin-top: 35px !important; }
 .mt40 { margin-top: 40px !important; }
+.mt50 { margin-top: 50px !important; }
 .mt80 { margin-top: 80px !important; }
+.mt90 { margin-top: 90px !important; }
+.mt100 { margin-top: 100px !important; }
  
 .mr00 { margin-right:  0px !important; }
 .mr05 { margin-right:  5px !important; }
@@ -159,6 +163,7 @@ div.hr hr { display:none; }
 .pb30 { padding-bottom: 30px !important; }
 .pb35 { padding-bottom: 35px !important; }
 .pb40 { padding-bottom: 40px !important; }
+.pb50 { padding-bottom: 50px !important; }
  
 .pl00 { padding-left:  0px !important; }
 .pl05 { padding-left:  5px !important; }
@@ -209,35 +214,19 @@ div.hr hr { display:none; }
   background
  
 -------------------------------------------------------------------*/
-/*body {
+body {
     margin:0; padding:0;
-    background-color : #ffffff;
-    background-image:url(../img/background_gray.png);
+    background-color : #f0f0f0;
+    background-image:url(../img/background_white.png);
+    background-size: 10px 750px;
     background-position:left top;
     background-repeat:repeat-x;
-}*/
-
-.stripes {
-    /* float: left; */
-    -webkit-background-size: 50px 50px;
-    -moz-background-size: 50px 50px;
-    background-size: 50px 50px;/* Controls the size of the stripes */
-    -moz-box-shadow: 1px 1px 8px gray;
-    -webkit-box-shadow: 1px 1px 8px gray;
-    box-shadow: 1px 1px 8px gray;
 }
 
-.horizontal {
-    background-color: #0ae;
-    background-image: 
-    
-    -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
-    background-image: 
+.background_white {
+    background-color : #ffffff;
+}
 
-    
-    -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
-    background-image: 
-
-    -o-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
-    background-image: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+.background_gray {
+    background-color : #f0f0f0;
 }
