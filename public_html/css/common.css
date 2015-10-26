@@ -1,0 +1,243 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015/10/19, 22:46:13
+    Author     : monoitatsuya
+*/
+
+
+
+/* ----------------------------------------------------
+ 
+    text
+ 
+---------------------------------------------------- */
+.ac {text-align: center !important;}
+.ar {text-align: right !important;}
+.al {text-align: left !important;}
+ 
+.bold{font-weight:bold !important;}
+ 
+.font10{font-size:10px !important;}
+.font11{font-size:11px !important;}
+.font12{font-size:12px !important;}
+.font13{font-size:13px !important;}
+.font14{font-size:14px !important;}
+.font15{font-size:15px !important;}
+.font16{font-size:16px !important;}
+.font17{font-size:17px !important;}
+.font18{font-size:18px !important;}
+.font19{font-size:19px !important;}
+.font20{font-size:20px !important;}
+.font21{font-size:21px !important;}
+.font22{font-size:22px !important;}
+.font23{font-size:23px !important;}
+.font24{font-size:24px !important;}
+
+p { font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;}
+ 
+/* ----------------------------------------------------
+ 
+    float
+ 
+---------------------------------------------------- */
+.fr {float: right !important;}
+.fl {float: left !important;}
+ 
+.clear {clear: both;}
+ 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+ 
+.clearfix {
+  min-height: 1px;
+}
+ 
+* html .clearfix {
+  height: 1px;
+  /*Â¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+ 
+/* ----------------------------------------------------
+    clearfix ã®ä»£ç”¨
+    &#60;div class="hr"&#62;&#60;hr /&#62;&#60;/div&#62;
+---------------------------------------------------- */
+ 
+div.hr { clear:both; }
+div.hr hr { display:none; }
+ 
+/* ----------------------------------------------------
+ 
+    margin
+ 
+---------------------------------------------------- */
+ 
+.mt00 { margin-top:  0px !important; }
+.mt05 { margin-top:  5px !important; }
+.mt10 { margin-top: 10px !important; }
+.mt15 { margin-top: 15px !important; }
+.mt20 { margin-top: 20px !important; }
+.mt25 { margin-top: 25px !important; }
+.mt30 { margin-top: 30px !important; }
+.mt35 { margin-top: 35px !important; }
+.mt40 { margin-top: 40px !important; }
+.mt80 { margin-top: 80px !important; }
+ 
+.mr00 { margin-right:  0px !important; }
+.mr05 { margin-right:  5px !important; }
+.mr10 { margin-right: 10px !important; }
+.mr15 { margin-right: 15px !important; }
+.mr20 { margin-right: 20px !important; }
+.mr25 { margin-right: 25px !important; }
+.mr30 { margin-right: 30px !important; }
+.mr35 { margin-right: 35px !important; }
+.mr40 { margin-right: 40px !important; }
+ 
+.mb00 { margin-bottom:  0px !important; }
+.mb05 { margin-bottom:  5px !important; }
+.mb10 { margin-bottom: 10px !important; }
+.mb15 { margin-bottom: 15px !important; }
+.mb20 { margin-bottom: 20px !important; }
+.mb25 { margin-bottom: 25px !important; }
+.mb30 { margin-bottom: 30px !important; }
+.mb35 { margin-bottom: 35px !important; }
+.mb40 { margin-bottom: 40px !important; }
+ 
+.ml00 { margin-left:  0px !important; }
+.ml05 { margin-left:  5px !important; }
+.ml10 { margin-left: 10px !important; }
+.ml15 { margin-left: 15px !important; }
+.ml20 { margin-left: 20px !important; }
+.ml25 { margin-left: 25px !important; }
+.ml30 { margin-left: 30px !important; }
+.ml35 { margin-left: 35px !important; }
+.ml40 { margin-left: 40px !important; }
+ 
+/* ----------------------------------------------------
+ 
+    padding
+ 
+---------------------------------------------------- */
+ 
+.pt00 { padding-top:  0px !important; }
+.pt05 { padding-top:  5px !important; }
+.pt10 { padding-top: 10px !important; }
+.pt15 { padding-top: 15px !important; }
+.pt20 { padding-top: 20px !important; }
+.pt25 { padding-top: 25px !important; }
+.pt30 { padding-top: 30px !important; }
+.pt35 { padding-top: 35px !important; }
+.pt40 { padding-top: 40px !important; }
+ 
+.pr00 { padding-right:  0px !important; }
+.pr05 { padding-right:  5px !important; }
+.pr10 { padding-right: 10px !important; }
+.pr15 { padding-right: 15px !important; }
+.pr20 { padding-right: 20px !important; }
+.pr25 { padding-right: 25px !important; }
+.pr30 { padding-right: 30px !important; }
+.pr35 { padding-right: 35px !important; }
+.pr40 { padding-right: 40px !important; }
+ 
+.pb00 { padding-bottom:  0px !important; }
+.pb05 { padding-bottom:  5px !important; }
+.pb10 { padding-bottom: 10px !important; }
+.pb15 { padding-bottom: 15px !important; }
+.pb20 { padding-bottom: 20px !important; }
+.pb25 { padding-bottom: 25px !important; }
+.pb30 { padding-bottom: 30px !important; }
+.pb35 { padding-bottom: 35px !important; }
+.pb40 { padding-bottom: 40px !important; }
+ 
+.pl00 { padding-left:  0px !important; }
+.pl05 { padding-left:  5px !important; }
+.pl10 { padding-left: 10px !important; }
+.pl15 { padding-left: 15px !important; }
+.pl20 { padding-left: 20px !important; }
+.pl25 { padding-left: 25px !important; }
+.pl30 { padding-left: 30px !important; }
+.pl35 { padding-left: 35px !important; }
+.pl40 { padding-left: 40px !important; }
+ 
+/*-------------------------------------------------------------------
+ 
+  form
+ 
+-------------------------------------------------------------------*/
+ 
+.form_small {
+    width:50px;
+    height:14px;
+    font-size:12px;
+}
+.form_middle {
+    width:120px;
+    height:14px;
+    font-size:12px;
+}
+.form_long {
+    width:260px;
+    height:14px;
+    font-size:12px;
+}
+
+/*-------------------------------------------------------------------
+ 
+  img
+ 
+-------------------------------------------------------------------*/
+
+.img-responsive-overwrite{
+    margin: 0 auto;
+}
+
+
+
+/*-------------------------------------------------------------------
+ 
+  background
+ 
+-------------------------------------------------------------------*/
+/*body {
+    margin:0; padding:0;
+    background-color : #ffffff;
+    background-image:url(../img/background_gray.png);
+    background-position:left top;
+    background-repeat:repeat-x;
+}*/
+
+.stripes {
+    /* float: left; */
+    -webkit-background-size: 50px 50px;
+    -moz-background-size: 50px 50px;
+    background-size: 50px 50px;/* Controls the size of the stripes */
+    -moz-box-shadow: 1px 1px 8px gray;
+    -webkit-box-shadow: 1px 1px 8px gray;
+    box-shadow: 1px 1px 8px gray;
+}
+
+.horizontal {
+    background-color: #0ae;
+    background-image: 
+    
+    -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
+    background-image: 
+
+    
+    -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+    background-image: 
+
+    -o-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+    background-image: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+}
