@@ -7,38 +7,9 @@ and open the template in the editor.
     Created on : 2015/10/20, 0:38:11
     Author     : monoitatsuya
 */
-
-#header {
-  background: #1c262f;
-}
-#header .inner {
-  overflow: hidden;
-  padding: 8px 0px 10px 0;
-}
-#header .inner h1 {
-  float: left;
-  font-family: 'Dancing Script', cursive;
-  font-size: 20px;
-  font-size: 2rem;
-}
-#header .inner ul {
-  float: left;
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 8px;
-  font-size: 0.8rem;
-  margin: 20px 0 10px 20px;
-}
-#header .inner ul li {
-  float: left;
-  margin-right: 20px;
-}
-#header .inner ul li a {
-  color: #ffffff;
-  text-decoration: none;
-}
  
 #change {
-  background: #f66f6f;
+  background: #000000;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -53,20 +24,21 @@ and open the template in the editor.
   font-size: 2rem;
   float: left;
   font-weight: bold;
-  color: #1c262f;
+  color: #ffffff;
+  text-align: center;
 }
 #change ul {
-  float: left;
+  float: right;
   font-family: 'Droid Sans', sans-serif;
   font-size: 8px;
   font-size: 0.8rem;
-  margin: 20px 0 10px 20px;
+  margin: 20px 20px 20px 20px;
 }
 #change ul li {
   float: left;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 #change ul li a {
-  color: #1c262f;
+  color: #ffffff;
   text-decoration: none;
 }

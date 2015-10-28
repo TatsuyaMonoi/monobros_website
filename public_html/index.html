@@ -11,13 +11,25 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/common.css" rel="stylesheet">
+        <link href="css/sticky.css" rel="stylesheet">
+        <script type="text/javascript" src="js/libs/jquery/jquery.js"></script>
     </head>
     <body>
+        <div id="change">
+            <div>
+                <h1>Demo</h1>
+                <ul>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div><!-- /inner -->
+        </div><!-- /change -->
+        
         <div class="container-fluid">
             <div class="row mt100">
                 <img src="img/monobros_logo.png" width="280" alt="" class="img-responsive img-responsive-overwrite">
             </div>
-            <div class="row mt100">
+            <div id="content" class="row mt100">
                 <img src="img/panels_cap.png" width="300" alt="" class="img-responsive img-responsive-overwrite">
             </div>
             <div class="row mt10">
@@ -60,5 +72,6 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
+        <script src="js/sticky.js"></script>
     </body>
 </html>
