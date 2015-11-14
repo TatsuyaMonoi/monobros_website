@@ -211,6 +211,14 @@ div.hr hr { display:none; }
     margin: 0 auto;
 }
 
+.img-center{
+    width:54px;
+    position:absolute;
+    top:0px;
+    left:50%;
+    margin-left:-30px;
+}
+
 
 
 /*-------------------------------------------------------------------
