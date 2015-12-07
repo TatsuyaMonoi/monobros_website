@@ -39,7 +39,9 @@ and open the template in the editor.
 .font48{font-size:48px !important;}
 
 p { font-family: "Hiragino Maru Gothic ProN", Meiryo, fantasy;}
- 
+
+.gray-color{color: #7c7d7d;}
+
 /* ----------------------------------------------------
  
     float
@@ -94,9 +96,12 @@ div.hr hr { display:none; }
 .mt35 { margin-top: 35px !important; }
 .mt40 { margin-top: 40px !important; }
 .mt50 { margin-top: 50px !important; }
+.mt60 { margin-top: 60px !important; }
+.mt70 { margin-top: 70px !important; }
 .mt80 { margin-top: 80px !important; }
 .mt90 { margin-top: 90px !important; }
 .mt100 { margin-top: 100px !important; }
+.mt200 { margin-top: 200px !important; }
  
 .mr00 { margin-right:  0px !important; }
 .mr05 { margin-right:  5px !important; }
@@ -178,6 +183,15 @@ div.hr hr { display:none; }
 .pl30 { padding-left: 30px !important; }
 .pl35 { padding-left: 35px !important; }
 .pl40 { padding-left: 40px !important; }
+
+/*-------------------------------------------------------------------
+ 
+  width
+ 
+-------------------------------------------------------------------*/
+.w50{ width: 50px !important; }
+.w100{ width: 100px !important; }
+.w550{ width: 550px !important; }
  
 /*-------------------------------------------------------------------
  
@@ -260,4 +274,48 @@ position:absolute;
 right:50%;
 width:200px;
 margin-right:-350px;//ブロック全体の横幅50%
+}
+
+/*-------------------------------------------------------------------
+ 
+  textbox
+ 
+-------------------------------------------------------------------*/
+.inputBox{
+    border:0;
+    padding:8px;
+    font-size:1.3em;
+    font-family: "Hiragino Maru Gothic ProN", Meiryo, fantasy;
+    border:none;
+    outline:none;
+    width:550px;
+    border-radius: 8px;
+}
+ 
+.inputBox:focus{
+    border:none;
+    outline:none;
+    /*color:#00aced;*/
+    color: #000000;
+    box-shadow: 0 2px 13px 0 rgba(0,0,0,0.08);
+}
+
+.inputBox-l{
+    border:0;
+    padding:8px;
+    font-size:1.3em;
+    font-family: "Hiragino Maru Gothic ProN", Meiryo, fantasy;
+    border:none;
+    outline:none;
+    width:550px;
+    height: 160px;
+    border-radius: 8px;
+    resize: none;
+}
+ 
+.inputBox-l:focus{
+    border:none;
+    outline:none;
+    color: #000000;
+    box-shadow: 0 2px 13px 0 rgba(0,0,0,0.08);
 }
