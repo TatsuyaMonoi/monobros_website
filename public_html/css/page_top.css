@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015/12/23, 17:08:48
+    Author     : monoitatsuya
+*/
+
+/*.page-top
+{
+	margin: 0 ;
+	padding: 0 ;
+        display: none ;
+}
+ 
+.page-top p
+{
+	margin: 0 ;
+	padding: 0 ;
+	position: fixed ;
+	right: 20px ;
+	bottom: 20px ;
+
+        width:80px;
+        height:80px;
+        border-radius: 80px;
+        -webkit-border-radius: 80px;
+        -moz-border-radius: 80px;
+
+}
+ 
+.move-page-top
+{
+	display: block ;
+	width: 80px ;
+	height: 80px ;
+
+	color: #fff ;
+	line-height: 50px ;
+	text-decoration: none ;
+	text-align: center ;
+
+	-webkit-transition:all 0.3s ;
+	-moz-transition:all 0.3s ;
+	transition:all 0.3s ;
+}
+
+.move-page-top:hover
+{
+	opacity: 0.85 ;
+}*/
+
+.page-top {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 55px;
+
+    width: 60px;
+    height: 60px;
+    background-color: #2f2f2f;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+}
+
+.page-top img {
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.page-top:hover
+{
+    opacity: 0.85 ;
+}

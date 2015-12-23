@@ -12,18 +12,33 @@ and open the template in the editor.
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/common.css" rel="stylesheet">
         <link href="css/sticky.css" rel="stylesheet">
+        <link href="css/page_top.css" rel="stylesheet">
         <script type="text/javascript" src="js/libs/jquery/jquery.js"></script>
+        <script type="text/javascript" src="js/libs/jquery/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript" src="js/page_top.js"></script>
     </head>
     <body>
         <nav id="change">
             <div style="position:relative">
                 <div class="img-center"><img src="img/monobros_logo_mini.png" width="54" alt="" class=""></div>
                 <ul>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div><!-- /inner -->
         </nav><!-- /change -->
+        
+<!--        <div id="page-top" class="page-top">
+            <p>
+                <a id="move-page-top" class="move-page-top">
+                    <img src="img/page_top.png" width="80" alt="" class="move-page-top">
+                </a>
+            </p>
+        </div>-->
+            <a id="move-page-top" class="page-top">
+                <img src="img/page_top_icon.png" alt="">
+            </a>
         
         <div class="container-fluid">
             <div class="row mt100">
@@ -45,7 +60,7 @@ and open the template in the editor.
                 <img src="img/appstore_off.png" width="260" alt="" class="img-responsive img-responsive-overwrite">
             </div>
             <div class="row mt90 pb50 background_white">
-                <div class="row mt80">
+                <div id="about" class="row mt80">
                     <p class="text-center font48">ABOUT US</p>
                 </div>
                 <div class="row mt40">
@@ -67,7 +82,7 @@ and open the template in the editor.
                 </div>
             </div>
             <div class="row mt80 background_gray">
-                <div class="row">
+                <div id="contact" class="row">
                     <p class="text-center font48">CONTACT</p>
                 </div>
                 <form>
@@ -100,7 +115,7 @@ and open the template in the editor.
                     </div>
                 </form>
                 <div class="row">
-                    <p class="text-center mt200 mb40 gray-color">© 2015 monobros. Inc.</p>
+                    <p class="text-center mt200 mb50 gray-color">© 2015 monobros. Inc.</p>
                 </div>
             </div>
         </div>
