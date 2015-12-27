@@ -14,7 +14,7 @@ $(function() {
 				var scldurat = 1200;
 				var targetOffset = target.offset().top - sclpos;
 				$('html,body')
-					.animate({scrollTop: targetOffset}, {duration: scldurat, easing: "easeOutExpo"});
+					.animate({scrollTop: targetOffset}, {duration: scldurat, easing: "easeOutQuint"});
 				return false;
 			}
 		}

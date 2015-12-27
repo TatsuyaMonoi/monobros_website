@@ -67,7 +67,7 @@ $( function()
 		{
 			// スムーズにスクロールする
                         var scldurat = 1200;
-			$( 'html,body' ).animate( {scrollTop:0} , {duration: scldurat, easing: "easeOutExpo"} ) ;
+			$( 'html,body' ).animate( {scrollTop:0} , {duration: scldurat, easing: "easeOutQuint"} ) ;
 		}
 	) ;
 } ) ;
