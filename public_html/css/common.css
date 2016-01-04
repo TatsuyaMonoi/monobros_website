@@ -280,14 +280,14 @@ body {
 position:absolute;
 left:50%;
 width:200px;
-margin-left:-350px;//ブロック全体の横幅50%
+margin-left:-350px;
 }
 
 .block_right{
 position:absolute;
 right:50%;
 width:200px;
-margin-right:-350px;//ブロック全体の横幅50%
+margin-right:-350px
 }
 
 /*-------------------------------------------------------------------
