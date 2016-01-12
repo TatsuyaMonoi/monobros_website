@@ -20,7 +20,8 @@ and open the template in the editor.
         <script src="js/easing.js" type="text/javascript"></script>
         <script src="js/page_top.js" type="text/javascript"></script>
         <script src="libs/slick/slick.min.js" type="text/javascript"></script>
-
+        <script src="js/send_mail.js" type="text/javascript"></script>
+       
         <script>
             $(document).ready(function(){
                 $('.sliders').slick({
@@ -130,14 +131,14 @@ and open the template in the editor.
                 <div id="contact" class="row mt80">
                     <p class="text-center font48">CONTACT</p>
                 </div>
-                <form>
+                <form name="contact">
                     <div class="row mt50">
                         <div class="center-block w550 pl05">
                             <p class="gray-color">お名前</p>
                         </div>
                     </div>
                     <div class="row text-center">
-                        <input type="text" class="inputBox" />
+                        <input type="text" class="inputBox" name="name"/>
                     </div>
                     <div class="row mt30">
                         <div class="center-block w550 pl05">
@@ -145,7 +146,7 @@ and open the template in the editor.
                         </div>
                     </div>
                     <div class="row text-center">
-                        <input type="text" class="inputBox" />
+                        <input type="text" class="inputBox" name="address"/>
                     </div>
                     <div class="row mt30">
                         <div class="center-block w550 pl05">
@@ -153,10 +154,10 @@ and open the template in the editor.
                         </div>
                     </div>
                     <div class="row text-center">
-                        <textarea cols="40" rows="4" class="inputBox-l"></textarea>
+                        <textarea cols="40" rows="4" class="inputBox-l" name="body"></textarea>
                     </div>
                     <div class="row mt60">
-                        <img src="img/send_button_on.png" width="160" alt="" class="img-responsive img-responsive-overwrite">
+                        <img src="img/send_button_on.png" width="160" alt="送信する" class="img-responsive img-responsive-overwrite" onclick="sending()">
                     </div>
                 </form>
                 <div class="row">
