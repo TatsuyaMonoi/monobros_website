@@ -8,14 +8,14 @@ and open the template in the editor.
     Author     : monoitatsuya
 */
 
-@media screen and (min-width: 769px){
+@media screen and (max-width: 768px){
 
 /* ----------------------------------------------------
  
     position
  
 ---------------------------------------------------- */
-.center-position{
+.center-position-sp{
     margin: 0 auto;
 }
 
@@ -50,11 +50,19 @@ and open the template in the editor.
 .font48{font-size:48px !important;}
 
 p { 
-    margin: 0 0 15px;
-    font-family: "Hiragino Maru Gothic ProN", "HiraKakuProN-W3", Meiryo, sans-serif;
+    line-height: 1.5em;
+    font-family: "Hiragino Maru Gothic ProN", Meiryo, Questrial, sans-serif;
 }
 
 .gray-color{color: #7c7d7d;}
+
+.br-sp{
+    display:block;
+}
+
+.hidden-sp{
+    display: none;
+}
 
 /* ----------------------------------------------------
  
@@ -106,20 +114,20 @@ div.hr hr { display:none; }
 .mt15 { margin-top: 15px !important; }
 .mt20 { margin-top: 20px !important; }
 .mt25 { margin-top: 25px !important; }
-.mt30 { margin-top: 30px !important; }
+.mt30-sp { margin-top: 30px !important; }
 .mt35 { margin-top: 35px !important; }
-.mt40 { margin-top: 40px !important; }
-.mt50 { margin-top: 50px !important; }
-.mt60 { margin-top: 60px !important; }
+.mt40-sp { margin-top: 40px !important; }
+.mt50-sp { margin-top: 50px !important; }
+.mt60-sp { margin-top: 60px !important; }
 .mt70 { margin-top: 70px !important; }
-.mt80 { margin-top: 80px !important; }
+.mt80-sp { margin-top: 80px !important; }
 .mt90 { margin-top: 90px !important; }
-.mt100 { margin-top: 100px !important; }
-.mt200 { margin-top: 200px !important; }
+.mt100-sp { margin-top: 100px !important; }
+.mt200-sp { margin-top: 200px !important; }
  
 .mr00 { margin-right:  0px !important; }
 .mr05 { margin-right:  5px !important; }
-.mr10 { margin-right: 10px !important; }
+.mr10-sp { margin-right: 10px !important; }
 .mr15 { margin-right: 15px !important; }
 .mr20 { margin-right: 20px !important; }
 .mr25 { margin-right: 25px !important; }
@@ -142,7 +150,7 @@ div.hr hr { display:none; }
  
 .ml00 { margin-left:  0px !important; }
 .ml05 { margin-left:  5px !important; }
-.ml10 { margin-left: 10px !important; }
+.ml10-sp { margin-left: 10px !important; }
 .ml15 { margin-left: 15px !important; }
 .ml20 { margin-left: 20px !important; }
 .ml25 { margin-left: 25px !important; }
@@ -190,7 +198,7 @@ div.hr hr { display:none; }
 .pb150 { padding-bottom: 150px !important; }
 .pb200 { padding-bottom: 200px !important; }
 .pb300 { padding-bottom: 300px !important; }
-.pb350 { padding-bottom: 350px !important; }
+.pb350-sp { padding-bottom: 350px !important; }
 .pb400 { padding-bottom: 400px !important; }
  
 .pl00 { padding-left:  0px !important; }
@@ -210,10 +218,12 @@ div.hr hr { display:none; }
 -------------------------------------------------------------------*/
 .w50{ width: 50px !important; }
 .w100{ width: 100px !important; }
-.w250{ width: 250px !important; }
-.w280{ width: 280px !important; }
-.w380{ width: 380px !important; }
-.w550{ width: 550px !important; }
+.w166-sp{ width: 166px !important; }
+.w220-sp{ width: 220px !important; }
+.w250-sp{ width: 250px !important; }
+.w260-sp{ width: 260px !important; }
+.w280-sp{ width: 280px !important; }
+.w320-sp{ width: 320px !important; }
  
 /*-------------------------------------------------------------------
  
@@ -267,7 +277,7 @@ body {
     background-color : #ffffff;
     background-image:url(../img/background_gray.png);
     background-size: 10px 700px;
-    background-position:left 820px;
+    background-position:left 540px;
     background-repeat:repeat-x;
 }
 
@@ -285,17 +295,17 @@ body {
  
 -------------------------------------------------------------------*/
 .block_left{
-position:absolute;
-left:50%;
 width:200px;
-margin-left:-350px;
 }
 
 .block_right{
-position:absolute;
-right:50%;
 width:200px;
-margin-right:-350px
+}
+
+.center-block-sp{
+    display:block;
+    margin-right:auto;
+    margin-left:auto
 }
 
 /*-------------------------------------------------------------------
@@ -310,7 +320,7 @@ margin-right:-350px
     font-family: "Hiragino Maru Gothic ProN", Meiryo, sans-serif;
     border:none;
     outline:none;
-    width:550px;
+    width:260px;
     border-radius: 8px;
 }
  
@@ -330,7 +340,7 @@ margin-right:-350px
     font-family: "Hiragino Maru Gothic ProN", Meiryo, sans-serif;
     border:none;
     outline:none;
-    width:550px;
+    width:260px;
     height: 160px;
     border-radius: 8px;
     resize: none;
@@ -350,9 +360,9 @@ margin-right:-350px
  
 -------------------------------------------------------------------*/
 .sliders{
-    margin-top: 90px;
-    width: 248px;
-    height: 440px;
+    margin-top: 60px;
+    width: 166px;
+    height: 260px;
 }
 
 /*-------------------------------------------------------------------
@@ -362,15 +372,15 @@ margin-right:-350px
 -------------------------------------------------------------------*/
 .iphone-img{
     position: relative;
-    height: 700px;
+    height: 500px;
 }
 
 .iphone-frame{
-    width: 300px;
+    width: 200px;
     position:absolute;
     /*top: 0px;*/
     left:50%;
-    margin-left:-150px;
+    margin-left:-100px;
 }
 
 
@@ -427,4 +437,16 @@ margin-right:-350px
     opacity: 0.85 ;
 }
 
+}
+
+
+/*-------------------------------------------------------------------
+ 
+  description
+ 
+-------------------------------------------------------------------*/
+
+.description-sp p {
+    margin: 0;
+    line-height: 2.5em !important;
 }

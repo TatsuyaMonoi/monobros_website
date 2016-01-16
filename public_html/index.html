@@ -11,6 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/common.css" rel="stylesheet">
+        <link href="css/common_sp.css" rel="stylesheet">
         <link href="css/sticky.css" rel="stylesheet">
         <link href="css/page_top.css" rel="stylesheet">
         <link href="libs/slick/slick.css" rel="stylesheet" >
@@ -57,43 +58,43 @@ and open the template in the editor.
         </a>
 
         <div class="container-fluid">
-            <div class="row mt100">
-                <img src="img/monobros_logo.png" width="280" alt="" class="img-responsive img-responsive-overwrite">
+            <div class="row mt100 mt40-sp">
+                <img src="img/monobros_logo.png" alt="" class="img-responsive img-responsive-overwrite w280 w220-sp">
             </div>
-            <div id="content" class="row mt100 iphone-img">
+            <div id="content" class="row mt100 mt60-sp iphone-img">
                 <div class="iphone-frame">
                     <img src="img/iphone_frame.png" width="300" alt="" class="img-responsive img-responsive-overwrite">
                 </div>
-                <div class="sliders center-position">
-                    <div><img src="img/cap1.png" width="250" alt=""></div>
-                    <div><img src="img/cap2.png" width="250" alt=""></div>
-                    <div><img src="img/cap3.png" width="250" alt=""></div>
+                <div class="sliders center-position center-position-sp">
+                    <div><img src="img/cap1.png" class="w250 w166-sp" alt=""></div>
+                    <div><img src="img/cap2.png" class="w250 w166-sp" alt=""></div>
+                    <div><img src="img/cap3.png" class="w250 w166-sp" alt=""></div>
                 </div>
             </div>
             
             <div class="row mt10">
-                <img src="img/panels_logo.png" width="380" alt="" class="img-responsive img-responsive-overwrite">
+                <img src="img/panels_logo.png" alt="" class="img-responsive img-responsive-overwrite w380 w260-sp">
             </div>
-            <div class="row mt50">
-                <p class="text-center">PANELS（パネルズ）は、光るパネルの位置と順番を記憶し、</p>
-                <p class="text-center">その順番どおりにパネルをタップしていくゲームです。</p>
-                <p class="text-center">ステージが進むごとに記憶しなければならないパネルの数はどんどん増えていきます。</p>
-                <p class="text-center">記憶力の限界に挑戦し、最終ステージを目指してください！</p>
+            <div class="row mt50 mt50-sp w280-sp center-position-sp description-sp">
+                <p class="text-center">PANELS（パネルズ）は、<span class="br-sp">光るパネルの位置と順番を記憶し、</span></p>
+                <p class="text-center">順番どおりにパネルを<span class="br-sp">タップしていくゲームです。</span></p>
+                <p class="text-center hidden-sp">ステージが進むごとに記憶する<span class="br-sp">パネルの数はどんどん増えていきます。</span></p>
+                <p class="text-center">記憶力の限界に挑戦し、<span class="br-sp">最終ステージを目指してください！</span></p>
             </div>
-            <div class="row mt40">
+            <div class="row mt40 mt40-sp">
                 <img src="img/appstore_off.png" width="230" alt="" class="img-responsive img-responsive-overwrite">
             </div>
             <div class="row mt90 background_white">
-                <div id="about" class="row mt80">
+                <div id="about" class="row mt80 mt50-sp">
                     <p class="text-center font48">ABOUT US</p>
                 </div>
-                <div class="row mt40">
+                <div class="row mt40 mt40-sp description-sp">
                     <p class="text-center">monobros.（モノブロス）は、</p>
                     <p class="text-center">デザイナーの兄とエンジニアの弟による</p>
                     <p class="text-center">クリエイティブユニットです。</p>
                 </div>
-                <div class="row mt50 pb350">
-                    <div class="block_left">
+                <div class="row mt50 mt50-sp pb350">
+                    <div class="block_left center-block-sp">
                         <img src="img/atsushi_icon.png" width="180" alt="" class="img-responsive img-responsive-overwrite">
                         <p class="text-center mt15 font15">Monoi Atsushi</p>
                         <p class="text-center mt05 gray-color">Designer</p>
@@ -110,7 +111,7 @@ and open the template in the editor.
                             </div>
                         </div>
                     </div>
-                    <div class="block_right">
+                    <div class="block_right center-block-sp mt60-sp">
                         <img src="img/tatsuya_icon.png" width="180" alt="" class="img-responsive img-responsive-overwrite">
                         <p class="text-center mt15 font15">Monoi Tatsuya</p>
                         <p class="text-center mt05 gray-color">Engineer</p>
@@ -127,41 +128,44 @@ and open the template in the editor.
                     </div>
                 </div>
             </div>
-            <div class="row mt80 background_gray">
-                <div id="contact" class="row mt80">
+            <div class="row mt80 mt80-sp background_gray">
+                <div id="contact" class="row mt80 mt50-sp">
                     <p class="text-center font48">CONTACT</p>
                 </div>
                 <form name="contact">
-                    <div class="row mt50">
-                        <div class="center-block w550 pl05">
+                    <div class="row mt50 mt50-sp">
+                        <div class="center-block w550 pl05 w260-sp">
                             <p class="gray-color">お名前</p>
                         </div>
                     </div>
                     <div class="row text-center">
-                        <input type="text" class="inputBox" name="name"/>
+                        <input type="text" class="inputBox" name="name" onkeyup="check()"/>
                     </div>
-                    <div class="row mt30">
-                        <div class="center-block w550 pl05">
+                    <div class="row mt30 mt30-sp">
+                        <div class="center-block w550 pl05 w260-sp">
                             <p class="gray-color">メールアドレス</p>
                         </div>
                     </div>
                     <div class="row text-center">
-                        <input type="text" class="inputBox" name="address"/>
+                        <input type="text" class="inputBox" name="address" onkeyup="check()"/>
                     </div>
-                    <div class="row mt30">
-                        <div class="center-block w550 pl05">
+                    <div class="row mt30 mt30-sp">
+                        <div class="center-block w550 pl05 w260-sp">
                             <p class="gray-color">お問い合わせ内容</p>
                         </div>
                     </div>
                     <div class="row text-center">
-                        <textarea cols="40" rows="4" class="inputBox-l" name="body"></textarea>
+                        <textarea cols="40" rows="4" class="inputBox-l" name="body" onkeyup="check()"></textarea>
                     </div>
-                    <div class="row mt60">
-                        <img src="img/send_button_on.png" width="160" alt="送信する" class="img-responsive img-responsive-overwrite" onclick="sending()">
+                    <div class="row mt60 mt60-sp">
+                        <img id="sending" src="img/send_button_off.png" width="160" alt="送信する" class="img-responsive img-responsive-overwrite">
+                    </div>
+                    <div class="row mt20">
+                        <div id="sendMessage" class="text-center"></div>
                     </div>
                 </form>
-                <div class="row">
-                    <p class="text-center mt200 mb50 gray-color">© 2016 monobros. Inc.</p>
+                <div class="row mt200 mt80-sp">
+                    <p class="text-center mb50 gray-color">© 2016 monobros. Inc.</p>
                 </div>
             </div>
         </div>

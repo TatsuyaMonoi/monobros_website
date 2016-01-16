@@ -11,6 +11,9 @@ var syncerTimeout = null ;
 // 一連の処理
 $( function()
 {
+    // PCサイズの場合のみ処理を行う。
+    if( document.documentElement.clientWidth > 769 ){
+        
 	// スクロールイベントの設定
 	$( window ).scroll( function()
 	{
@@ -69,4 +72,5 @@ $( function()
 			$( 'html,body' ).animate( {scrollTop:0} , {duration: scldurat, easing: "easeOutQuint"} ) ;
 		}
 	) ;
+    }
 } ) ;
