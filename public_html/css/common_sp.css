@@ -37,12 +37,12 @@ and open the template in the editor.
 .font12-sp{font-size:12px !important;}
 .font13{font-size:13px !important;}
 .font14{font-size:14px !important;}
-.font15{font-size:15px !important;}
+.font15-sp{font-size:15px !important;}
 .font16{font-size:16px !important;}
 .font17{font-size:17px !important;}
-.font18{font-size:18px !important;}
+.font18-sp{font-size:18px !important;}
 .font19{font-size:19px !important;}
-.font20{font-size:20px !important;}
+.font20-sp{font-size:20px !important;}
 .font21{font-size:21px !important;}
 .font22{font-size:22px !important;}
 .font23{font-size:23px !important;}
@@ -51,6 +51,7 @@ and open the template in the editor.
 
 p { 
     line-height: 1.5em;
+    font-size: 16px !important;
 }
 
 .gray-color{color: #7c7d7d;}
@@ -74,6 +75,8 @@ body{
         "Webフォント", 
         sans-serif;
 }
+
+.space1-sp{letter-spacing: 1px !important;}
 
 /* ----------------------------------------------------
  
@@ -120,9 +123,9 @@ div.hr hr { display:none; }
 ---------------------------------------------------- */
  
 .mt00 { margin-top:  0px !important; }
-.mt05 { margin-top:  5px !important; }
+.mt05-sp { margin-top:  5px !important; }
 .mt10 { margin-top: 10px !important; }
-.mt15 { margin-top: 15px !important; }
+.mt15-sp { margin-top: 15px !important; }
 .mt20-sp { margin-top: 20px !important; }
 .mt25 { margin-top: 25px !important; }
 .mt30-sp { margin-top: 30px !important; }
@@ -147,7 +150,7 @@ div.hr hr { display:none; }
 .mr40 { margin-right: 40px !important; }
  
 .mb00 { margin-bottom:  0px !important; }
-.mb05 { margin-bottom:  5px !important; }
+.mb05-sp { margin-bottom:  5px !important; }
 .mb10 { margin-bottom: 10px !important; }
 .mb15 { margin-bottom: 15px !important; }
 .mb20 { margin-bottom: 20px !important; }
@@ -230,6 +233,7 @@ div.hr hr { display:none; }
 .w50{ width: 50px !important; }
 .w100{ width: 100px !important; }
 .w166-sp{ width: 166px !important; }
+.w200-sp{ width: 200px !important; }
 .w220-sp{ width: 220px !important; }
 .w250-sp{ width: 250px !important; }
 .w260-sp{ width: 260px !important; }
@@ -306,11 +310,11 @@ body {
  
 -------------------------------------------------------------------*/
 .block_left{
-width:200px;
+width:240px;
 }
 
 .block_right{
-width:200px;
+width:240px;
 }
 
 .center-block-sp{
@@ -416,20 +420,20 @@ width:200px;
 .sns-link {
     cursor: pointer;
 
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
 }
 
 .sns-link img {
-    width: 34px;
-    margin: 8px;
+    width: 40px;
+    margin: 10px;
 }
 
-.sns-link:hover{
-    opacity: 0.85 ;
+.hover {
+    opacity: 0.80 ;
 }
 
 /*-------------------------------------------------------------------
@@ -441,13 +445,6 @@ width:200px;
 .send-button {
     cursor: pointer;
 }
-
-.send-button:hover{
-    opacity: 0.85 ;
-}
-
-}
-
 
 /*-------------------------------------------------------------------
  
@@ -469,4 +466,6 @@ width:200px;
 
 .slick-dots li button:before{
     font-size: 10px !important;
+}
+
 }

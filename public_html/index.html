@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <title>monobros.</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
         <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/common.css" rel="stylesheet">
         <link href="css/common_sp.css" rel="stylesheet">
@@ -36,6 +36,24 @@ and open the template in the editor.
                     easing:"easeOutCubic"
                 });
             }); 
+            
+            $(function(){
+                $( '.sns-link' )
+                    .bind( 'touchstart', function(){
+                        $( this ).addClass( 'hover' );
+                    }).bind( 'touchend', function(){
+                        $( this ).removeClass( 'hover' );
+                });
+                
+                $( '#sending' )
+                    .bind( 'touchstart', function(){
+                        if( this.onclick !== null){
+                            $( this ).addClass( 'hover' );
+                        }
+                    }).bind( 'touchend', function(){
+                        $( this ).removeClass( 'hover' );
+                });
+            });
         </script>
     </head>
     
@@ -95,16 +113,16 @@ and open the template in the editor.
                 </div>
                 <div class="row mt50 mt50-sp pb350">
                     <div class="block_left center-block-sp">
-                        <img src="img/atsushi_icon.png" width="180" alt="" class="img-responsive img-responsive-overwrite">
-                        <p class="text-center mt15 font15">Monoi Atsushi</p>
-                        <p class="text-center mt05 gray-color">Designer</p>
-                        <div class="mt20 mt20-sp">
-                            <div class="sns-link facebook-color fr mr35">
+                        <img src="img/atsushi_icon.png" alt="" class="img-responsive img-responsive-overwrite w180 w220-sp">
+                        <p class="text-center mt15 mt15-sp font15 font20-sp mb05-sp space1-sp">Monoi Atsushi</p>
+                        <p class="text-center mt05 gray-color space1-sp">Designer</p>
+                        <div class="mt20 mt15-sp">
+                            <div class="sns-link facebook-color fr mr40">
                                 <a href="https://www.facebook.com/monoia" target=”_blank”>
                                     <img src="img/facebook_on.png" alt="">
                                 </a>
                             </div>
-                            <div class="sns-link twitter-color ml35">
+                            <div class="sns-link twitter-color ml40">
                                 <a href="https://twitter.com/monoia" target=”_blank”>
                                     <img src="img/twitter_on.png" alt="">
                                 </a>
@@ -112,16 +130,16 @@ and open the template in the editor.
                         </div>
                     </div>
                     <div class="block_right center-block-sp mt60-sp">
-                        <img src="img/tatsuya_icon.png" width="180" alt="" class="img-responsive img-responsive-overwrite">
-                        <p class="text-center mt15 font15">Monoi Tatsuya</p>
-                        <p class="text-center mt05 gray-color">Engineer</p>
-                        <div class="mt20 mt20-sp">
-                            <div class="sns-link facebook-color fr mr35">
+                        <img src="img/tatsuya_icon.png" alt="" class="img-responsive img-responsive-overwrite w180 w220-sp">
+                        <p class="text-center mt15 mt15-sp font15 font20-sp mb05-sp space1-sp">Monoi Tatsuya</p>
+                        <p class="text-center mt05 gray-color space1-sp">Engineer</p>
+                        <div class="mt20 mt15-sp">
+                            <div class="sns-link facebook-color fr mr40">
                                 <a href="https://www.facebook.com/tatsuya.monoi" target=”_blank”>
                                     <img src="img/facebook_on.png" alt="">
                                 </a>
                             </div>
-                            <div class="sns-link sns-off−color ml35">
+                            <div class="sns-link sns-off−color ml40">
                                 <img src="img/twitter_off.png" alt="">
                             </div>
                         </div>
