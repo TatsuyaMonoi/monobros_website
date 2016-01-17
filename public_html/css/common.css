@@ -51,10 +51,21 @@ and open the template in the editor.
 
 p { 
     margin: 0 0 15px;
-    font-family: "Hiragino Maru Gothic ProN", "HiraKakuProN-W3", Meiryo, sans-serif;
 }
 
 .gray-color{color: #7c7d7d;}
+
+body{
+    font-family: 
+        "Hiragino Maru Gothic ProN",
+        "ヒラギノ丸ゴ Pro", 
+        "Meiryo", 
+        "メイリオ", 
+        "MS PGothic", 
+        "MS Pゴシック", 
+        "Webフォント", 
+        sans-serif;
+}
 
 /* ----------------------------------------------------
  
@@ -307,7 +318,6 @@ margin-right:-350px
     border:0;
     padding:9px;
     font-size:1.1em;
-    font-family: "Hiragino Maru Gothic ProN", Meiryo, sans-serif;
     border:none;
     outline:none;
     width:550px;
@@ -327,7 +337,6 @@ margin-right:-350px
     padding:9px;
     font-size:1.1em;
     line-height: 1.5em;
-    font-family: "Hiragino Maru Gothic ProN", Meiryo, sans-serif;
     border:none;
     outline:none;
     width:550px;

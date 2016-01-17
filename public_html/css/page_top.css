@@ -8,56 +8,13 @@ and open the template in the editor.
     Author     : monoitatsuya
 */
 
-/*.page-top
-{
-	margin: 0 ;
-	padding: 0 ;
-        display: none ;
-}
- 
-.page-top p
-{
-	margin: 0 ;
-	padding: 0 ;
-	position: fixed ;
-	right: 20px ;
-	bottom: 20px ;
-
-        width:80px;
-        height:80px;
-        border-radius: 80px;
-        -webkit-border-radius: 80px;
-        -moz-border-radius: 80px;
-
-}
- 
-.move-page-top
-{
-	display: block ;
-	width: 80px ;
-	height: 80px ;
-
-	color: #fff ;
-	line-height: 50px ;
-	text-decoration: none ;
-	text-align: center ;
-
-	-webkit-transition:all 0.3s ;
-	-moz-transition:all 0.3s ;
-	transition:all 0.3s ;
-}
-
-.move-page-top:hover
-{
-	opacity: 0.85 ;
-}*/
-
 .page-top {
     display: none;
     position: fixed;
     bottom: 30px;
     right: 55px;
     cursor: pointer;
+    z-index: 999;
 
     width: 60px;
     height: 60px;

@@ -14,7 +14,6 @@ topContent = $content.offset().top; //#contentの位置を取得
 var sticky = false;
  
 $window.on("scroll", function () {
-    if( document.documentElement.clientWidth > 769 ){
         if ($window.scrollTop() > topContent) {//scroll位置が#contentの上にある場合
             if ( sticky === false ){
                 $chenge.slideDown();//#change部分が上がる。
@@ -26,6 +25,5 @@ $window.on("scroll", function () {
                 sticky = false;
             }
         }
-    }
 });
 $window.trigger("scroll");

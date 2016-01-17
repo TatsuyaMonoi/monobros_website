@@ -34,7 +34,7 @@ and open the template in the editor.
  
 .font10{font-size:10px !important;}
 .font11{font-size:11px !important;}
-.font12{font-size:12px !important;}
+.font12-sp{font-size:12px !important;}
 .font13{font-size:13px !important;}
 .font14{font-size:14px !important;}
 .font15{font-size:15px !important;}
@@ -51,7 +51,6 @@ and open the template in the editor.
 
 p { 
     line-height: 1.5em;
-    font-family: "Hiragino Maru Gothic ProN", Meiryo, Questrial, sans-serif;
 }
 
 .gray-color{color: #7c7d7d;}
@@ -61,7 +60,19 @@ p {
 }
 
 .hidden-sp{
-    display: none;
+    display: none !important;
+}
+
+body{
+    font-family: 
+        "Hiragino Maru Gothic ProN",
+        "ヒラギノ丸ゴ Pro", 
+        "Meiryo", 
+        "メイリオ", 
+        "MS PGothic", 
+        "MS Pゴシック", 
+        "Webフォント", 
+        sans-serif;
 }
 
 /* ----------------------------------------------------
@@ -112,7 +123,7 @@ div.hr hr { display:none; }
 .mt05 { margin-top:  5px !important; }
 .mt10 { margin-top: 10px !important; }
 .mt15 { margin-top: 15px !important; }
-.mt20 { margin-top: 20px !important; }
+.mt20-sp { margin-top: 20px !important; }
 .mt25 { margin-top: 25px !important; }
 .mt30-sp { margin-top: 30px !important; }
 .mt35 { margin-top: 35px !important; }
@@ -121,7 +132,7 @@ div.hr hr { display:none; }
 .mt60-sp { margin-top: 60px !important; }
 .mt70 { margin-top: 70px !important; }
 .mt80-sp { margin-top: 80px !important; }
-.mt90 { margin-top: 90px !important; }
+.mt90-sp { margin-top: 90px !important; }
 .mt100-sp { margin-top: 100px !important; }
 .mt200-sp { margin-top: 200px !important; }
  
@@ -317,7 +328,6 @@ width:200px;
     border:0;
     padding:9px;
     font-size:1.1em;
-    font-family: "Hiragino Maru Gothic ProN", Meiryo, sans-serif;
     border:none;
     outline:none;
     width:260px;
@@ -337,7 +347,6 @@ width:200px;
     padding:9px;
     font-size:1.1em;
     line-height: 1.5em;
-    font-family: "Hiragino Maru Gothic ProN", Meiryo, sans-serif;
     border:none;
     outline:none;
     width:260px;
@@ -372,7 +381,7 @@ width:200px;
 -------------------------------------------------------------------*/
 .iphone-img{
     position: relative;
-    height: 500px;
+    height: 470px;
 }
 
 .iphone-frame{
@@ -449,4 +458,15 @@ width:200px;
 .description-sp p {
     margin: 0;
     line-height: 2.5em !important;
+}
+
+
+/*-------------------------------------------------------------------
+ 
+  slick-dots-sp
+ 
+-------------------------------------------------------------------*/
+
+.slick-dots li button:before{
+    font-size: 10px !important;
 }
