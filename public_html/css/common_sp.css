@@ -47,11 +47,13 @@ and open the template in the editor.
 .font22{font-size:22px !important;}
 .font23{font-size:23px !important;}
 .font24{font-size:24px !important;}
-.font48{font-size:48px !important;}
+.font40-sp{font-size:40px !important;}
+.font42-sp{font-size:42px !important;}
+.font48-sp{font-size:48px !important;}
 
 p { 
     line-height: 1.5em;
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 
 .gray-color{color: #7c7d7d;}
@@ -129,7 +131,7 @@ div.hr hr { display:none; }
 .mt20-sp { margin-top: 20px !important; }
 .mt25 { margin-top: 25px !important; }
 .mt30-sp { margin-top: 30px !important; }
-.mt35 { margin-top: 35px !important; }
+.mt35-sp { margin-top: 35px !important; }
 .mt40-sp { margin-top: 40px !important; }
 .mt50-sp { margin-top: 50px !important; }
 .mt60-sp { margin-top: 60px !important; }
@@ -454,7 +456,7 @@ width:240px;
 
 .description-sp p {
     margin: 0;
-    line-height: 2.5em !important;
+    line-height: 2.2em !important;
 }
 
 
