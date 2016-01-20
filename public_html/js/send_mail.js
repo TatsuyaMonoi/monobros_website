@@ -21,7 +21,25 @@ function sending() {
     document.contact.name.value = "";
     document.contact.address.value = "";
     document.contact.body.value = "";
-    document.getElementById("sendMessage").innerHTML = "送信しました。";
+    
+    //送信完了アニメーション
+    var balloon = document.getElementById("sendBalloon");
+    balloon.style.display = "block";
+    
+    $sendBalloon = $("#sendBalloon");
+    $sendBalloon.animate({
+            bottom: "60px",
+            opacity: 1
+        }, 1000);
+    $sendBalloon.queue(function() {
+            setTimeout(function(){$sendBalloon.dequeue();
+            }, 3000);
+        });
+    $sendBalloon.fadeOut(1500);
+    $sendBalloon.animate({
+            bottom: "30px"
+        }, 0);
+    
     check();
 }
 

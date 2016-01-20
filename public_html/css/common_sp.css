@@ -443,9 +443,27 @@ width:240px;
   mail
  
 -------------------------------------------------------------------*/
+.mail_form {
+    position: relative;
+}
 
 .send-button {
     cursor: pointer;
+}
+
+.send-balloon {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    width: 200px;
+    bottom: 30px;
+    left:50%;
+    margin-left:-100px;
+    z-index: 500;
+}
+
+.send-balloon img {
+    width: 200px;
 }
 
 /*-------------------------------------------------------------------

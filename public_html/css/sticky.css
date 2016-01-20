@@ -9,19 +9,13 @@ and open the template in the editor.
 */
  
 #change {
-  background: #000000;
-  opacity: 0.8;
   position: fixed;
-  top: 0px;
-  left: 0px;
   width: 100%;
   display: none;
-  z-index: 9999;
+  z-index: 5000;
 }
 #change ul {
   float: right;
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 8px;
   font-size: 0.8rem;
   margin: 20px 20px 20px 20px;
 }
@@ -29,7 +23,35 @@ and open the template in the editor.
   float: left;
   margin-right: 40px;
 }
+
+#change ul li :hover {
+  opacity: 0.85;
+}
+
 #change ul li a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.sticky {
+  background: #000000;
+  opacity: 0.8;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 6000;
+}
+
+.mini_logo {
+    z-index: 7000;
+    width:32px;
+    position:absolute;
+    top:11px;
+    left:50%;
+    margin-left:-16px;
+}
+
+.mini_logo img {
+    width:32px;
 }
