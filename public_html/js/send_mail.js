@@ -33,7 +33,7 @@ function sending() {
         }, 1000);
     $sendBalloon.queue(function() {
             setTimeout(function(){$sendBalloon.dequeue();
-            }, 3000);
+            }, 1500);
         });
     $sendBalloon.fadeOut(1500);
     $sendBalloon.animate({
