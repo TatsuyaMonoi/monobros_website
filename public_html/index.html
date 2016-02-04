@@ -51,6 +51,13 @@ and open the template in the editor.
             }); 
             
             $(function(){
+                $( '.img-link' )
+                    .bind( 'touchstart', function(){
+                        $( this ).addClass( 'hover' );
+                    }).bind( 'touchend', function(){
+                        $( this ).removeClass( 'hover' );
+                });
+                
                 $( '.sns-link' )
                     .bind( 'touchstart', function(){
                         $( this ).addClass( 'hover' );
@@ -113,7 +120,9 @@ and open the template in the editor.
                 <p class="text-center">記憶力の限界に挑戦し、<span class="br-sp">最終ステージを目指してください！</span></p>
             </div>
             <div class="row mt40 mt40-sp">
-                <img src="img/appstore_off.png" width="230" alt="" class="img-responsive img-responsive-overwrite">
+                <a href="https://itunes.apple.com/us/app/panels./id1079433668?l=ja&ls=1&mt=8" target=”_blank”>
+                    <img src="img/appstore_on.png" width="230" alt="" class="img-responsive img-responsive-overwrite img-link">
+                </a>
             </div>
             <div class="row mt90 mt60-sp background_white">
                 <div id="about" class="row mt80 mt40-sp">

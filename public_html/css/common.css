@@ -259,6 +259,10 @@ div.hr hr { display:none; }
     margin: 0 auto;
 }
 
+.img-link:hover {
+    opacity: 0.85 ;
+}
+
 /*-------------------------------------------------------------------
  
   background
